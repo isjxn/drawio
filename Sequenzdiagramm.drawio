@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.12">
   <diagram name="Page-1" id="m23mBsG2QwRVnSNt44Ii">
-    <mxGraphModel dx="1428" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,6 +244,12 @@
         </mxCell>
         <mxCell id="BdV08MHEEbCIqeAIR1xN-70" value="email bestätigung senden" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="749" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BdV08MHEEbCIqeAIR1xN-71" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BdV08MHEEbCIqeAIR1xN-62" target="BdV08MHEEbCIqeAIR1xN-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="620" as="sourcePoint" />
+            <mxPoint x="600" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
