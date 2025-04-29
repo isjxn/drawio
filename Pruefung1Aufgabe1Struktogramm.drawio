@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
   <diagram name="Page-1" id="xXtlHUL__Hw9KdMi2hR5">
-    <mxGraphModel>
+    <mxGraphModel dx="1187" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-4" value="Formular korrekt ausgefüllt == true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-5" value="&lt;div&gt;ja&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-6" value="nein" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-9" value="&lt;div&gt;Datenbank&lt;/div&gt;&lt;div&gt;.verbinden()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-11" value="&lt;div&gt;KonzerteListe = Datenbank&lt;/div&gt;&lt;div&gt;.query(&quot;SELECT * FROM&lt;/div&gt;&lt;div&gt;konzerte WHERE&lt;/div&gt;&lt;div&gt;künstlername = Formular.Künstler&quot;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-13" value="Für jedes Konzert von KonzerteListe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-15" value="Ergebnisliste = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-17" value="&lt;div&gt;Konzert.Preiskategorie&lt;/div&gt;&lt;div&gt;[Formular.PreiskategorieIndex]&lt;/div&gt;&lt;div&gt;.Karten &amp;gt;= Formular.Karten&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-20" value="&lt;div&gt;ja&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-21" value="nein" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-22" value="&lt;div&gt;Ergebnisliste&lt;/div&gt;&lt;div&gt;.push(Konzert.Datum)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-26" value="&lt;div&gt;Ergebnisliste.length&lt;/div&gt;&lt;div&gt;&amp;gt; 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-27" value="&lt;div&gt;ja&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-28" value="nein" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-29" value="Ausgeben Ergebnisliste" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-30" value="Zeige Fehlermeldung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JhOjErQu7-ZWLcD45Sau-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="320" height="560" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
